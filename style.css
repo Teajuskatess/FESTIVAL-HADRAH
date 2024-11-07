@@ -25,6 +25,34 @@
     max-width: 150px;
   }
   
+  /* Navigasi */
+.navbar {
+  width: 100%;
+  background-color: #4CAF50;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+}
+
+.navbar ul li a:hover {
+  background-color: #45a049;
+  border-radius: 5px;
+}
   
   h1 {
     margin-top: 20px;
@@ -32,6 +60,23 @@
     color: #4CAF50;
   }
   
+/* Ketentuan dan Kontak Person */
+section {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+section h2 {
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+section ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
   #countdown {
     display: flex;
     justify-content: center;
