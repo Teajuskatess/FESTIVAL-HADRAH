@@ -24,6 +24,31 @@
   .logo {
     max-width: 150px;
   }
+
+/* Running Text dengan JavaScript */
+#running-text {
+background-color: #45a049; /* Warna latar */
+  color: white; /* Warna teks */
+  overflow: hidden; /* Menyembunyikan teks di luar area */
+  white-space: nowrap; /* Mencegah teks terpotong */
+  width: 100%; /* Lebar penuh */
+  padding: 10px 0; /* Jarak vertikal */
+  position: relative; /* Untuk elemen internal */
+}
+
+#running-text .text-wrapper {
+  display: inline-block;
+  animation: scrollText 30s linear infinite; /* Animasi berjalan */
+}
+
+@keyframes scrollText {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(-100%);
+  }
+}
   
 /* Modal Pengumuman */
 .pengumuman {
